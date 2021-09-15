@@ -25,11 +25,11 @@ code 必须返回一个函数，参考 react hooks 函数式组件
 
 ```tsx
 import React from 'react';
-import ReactOnline from '@sihe/react-online';
+import ReactPreview from 'react-preview-component';
 
 export default () => {
 	return (
-		<ReactOnline
+		<ReactPreview
 			code={`
                 return () => {
                     const { useState } = React;
