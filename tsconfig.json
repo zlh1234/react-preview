@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"sourceMap": true,
+		"module": "ESNext",
+		"target": "ESNext",
+		"esModuleInterop": false,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "Node",
+		"strict": false,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"skipLibCheck": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"noImplicitReturns": true,
+		"noEmit": true,
+		"baseUrl": ".",
+		"rootDir": ".",
+		"allowJs": true,
+		"declaration": true,
+		"experimentalDecorators": true,
+		"noUnusedLocals": false,
+		// 路径别名
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "dist"]
+}
