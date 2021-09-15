@@ -23,7 +23,7 @@ module.exports = (env) => {
 			new uglify(),
 			new CleanWebpackPlugin(),
 			new copyWebpackPlugin({
-				patterns: [{ from: 'src/index.d.ts' }],
+				patterns: [{ from: 'src/index.d.ts' }, { from: './README.md' }],
 			}),
 		],
 		module: {

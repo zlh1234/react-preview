@@ -1,19 +1,7 @@
 import React, { Component } from 'react';
 import { createElement } from './core';
+import { IProps, IState } from '../index.d';
 
-export interface IProps {
-	//源码
-	code: string;
-	//作用域内模块
-	scope?: { [key: string]: any };
-	//报错时是否在控制台展示报错源码
-	errorSourceCode?: boolean;
-}
-export interface IState {
-	transformCode?: string;
-	error?: any;
-	EleNode?: any;
-}
 class ReactPreview extends Component<IProps, IState> {
 	constructor(props) {
 		super(props);
