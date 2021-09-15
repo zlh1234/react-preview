@@ -16,6 +16,7 @@
 		"在线预览react代码",
 		"在线ES6转为ES5"
 	],
+	"repository": "https://github.com/zlh1234/react-preview",
 	"author": "zhong.linhui",
 	"license": "MIT",
 	"devDependencies": {
