@@ -1,5 +1,5 @@
 {
-	"name": "react-preview",
+	"name": "react-preview-component",
 	"version": "1.0.0",
 	"description": "动态解析react es6代码组件并渲染",
 	"main": "dist/index.js",
