@@ -4,9 +4,6 @@
 	"description": "动态解析react es6代码组件并渲染",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
-	"files": [
-		"dist/**/*"
-	],
 	"scripts": {
 		"dev": "webpack serve --config webpack.dev.js",
 		"build": "webpack --progress --config webpack.prod.js"
