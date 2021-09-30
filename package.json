@@ -1,6 +1,6 @@
 {
 	"name": "react-preview-component",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "动态解析react es6代码组件并渲染",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -44,6 +44,7 @@
 		"babel-preset-react": "6.24.1",
 		"babel-standalone": "6.26.0",
 		"copy-webpack-plugin": "9.0.1",
+		"less": "4.1.1",
 		"react": "17.0.2",
 		"react-dom": "17.0.2",
 		"terser-webpack-plugin": "5.2.0"

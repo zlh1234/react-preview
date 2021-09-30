@@ -6,6 +6,8 @@ export interface IProps {
 	scope?: { [key: string]: any };
 	//报错时是否在控制台展示报错源码
 	errorSourceCode?: boolean;
+	//动态样式ID前缀
+	styleIdPre?: string;
 }
 export interface IState {
 	transformCode?: string;

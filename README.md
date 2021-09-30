@@ -4,6 +4,11 @@
 npm i react-preview-component -S
 ```
 
+##### 更新记录
+
+> v.1.0.3 2021-09-30  
+> 支持 less 样式解析
+
 ##### 引入
 
 ```tsx
@@ -17,6 +22,7 @@ import ReactPreview from 'react-preview-component';
 | code            | 代码内容                       | string  | 是       | -      |
 | scope           | 作用域对象                     | Object  | 否       | {}     |
 | errorSourceCode | 报错时是否在控制台输出错误代码 | Boolean | 否       | false  |
+| styleIdPre      | 动态代码 style ID 前缀         | string  | 否       | -      |
 
 ##### 示例
 
@@ -34,8 +40,15 @@ export default () => {
                 return () => {
                     const { useState } = React;
                     const [text, setText] = useState('zlinhui');
-                    return <div>{name}</div>;
+                    return <div className="cus-wrapper">{name}</div>;
                 }
+
+                <style>
+                    .cus-wrapper {
+                        position: relative;
+                        width: 100%;
+                    }
+                </style>
             `}
 			scope={{ React }}
 		/>
